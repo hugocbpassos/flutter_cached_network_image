@@ -32,6 +32,7 @@ class CachedNetworkImageProvider
   // Set headers for the image provider, for example for authentication
   final Map<String, String> headers;
 
+
   @override
   Future<CachedNetworkImageProvider> obtainKey(
       ImageConfiguration configuration) {
